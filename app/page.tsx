@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <>
       <LoadingScreen />
-      <div className={`min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0f1419] to-[#1a1a1a] py-12 px-4 w-full transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
-        <main className="max-w-4xl mx-auto">
+      <div className={`min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0f1419] to-[#1a1a1a] py-6 sm:py-8 md:py-12 px-4 sm:px-6 lg:px-8 w-full transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+        <main className="max-w-4xl mx-auto w-full">
         <ProfileHeader
           name="Ismail En-niou"
           avatar='https://avatars.githubusercontent.com/u/132809252?s=400&u=a423fc9012156e22124df85e7067fc73efb7193d&v=4'
@@ -30,7 +30,7 @@ export default function Home() {
           bio="Passionate about creating innovative solutions and connecting with like-minded professionals. Let's build something amazing together."
         />
         
-        <div className="w-full flex flex-col gap-3 mb-12 items-center ml-30">
+        <div className="w-full flex flex-col gap-3 sm:gap-3.5 md:gap-4 mb-8 sm:mb-10 md:mb-12 items-center">
           {socialLinks.map((link, index) => (
             <div
               key={link.name}
