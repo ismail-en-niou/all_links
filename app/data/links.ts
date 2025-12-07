@@ -10,43 +10,37 @@ export interface SocialLink {
 export const socialLinks: SocialLink[] = [
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/yourusername",
+    url: "https://linkedin.com/in/ismail-en-niou",
     icon: Linkedin,
     description: "Connect with me professionally"
   },
   {
     name: "GitHub",
-    url: "https://github.com/yourusername",
+    url: "https://github.com/ismail-en-niou",
     icon: Github,
     description: "Check out my projects"
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/yourusername",
-    icon: Twitter,
-    description: "Follow me for updates"
-  },
-  {
     name: "Instagram",
-    url: "https://instagram.com/yourusername",
+    url: "https://instagram.com/ismail_enniou",
     icon: Instagram,
     description: "See my visual content"
   },
   {
     name: "YouTube",
-    url: "https://youtube.com/@yourusername",
+    url: "https://youtube.com/@IsmailEnniou",
     icon: Youtube,
     description: "Watch my videos"
   },
   {
     name: "Email",
-    url: "mailto:your.email@example.com",
+    url: "mailto:ismail.enniou@gmail.com",
     icon: Mail,
     description: "Get in touch"
   },
   {
     name: "Website",
-    url: "https://yourwebsite.com",
+    url: "https://ien-niou.vercel.app/",
     icon: Globe,
     description: "Visit my portfolio"
   }
